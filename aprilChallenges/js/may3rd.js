@@ -142,3 +142,49 @@ console.log('May 3rd 2022')
 
 //   gooseFilter(["Mallard", "Hook Bill", "Crested", "Blue Swedish"])
 
+//------------------------------------------------------------------------
+// /----FILTER: 
+//  PREP
+//P: 
+//R:
+//E:
+//P:
+
+// Array.prototype.filter = function (func) {
+//     //nothing here, you will feel pretty awesome to write down by yourself
+//     //have fun :)
+//     console.log([1, 2, 3, 4, 5].filter(num => num > 3))
+// }
+
+// console.log()
+
+// Array.prototype.filter = function (fn) {
+//     const res = []
+//     if(fn(this[i])) {
+//         res.push(this[i])
+//     }
+//     return res
+// }
+
+
+// var res = [];
+//   //     for (var i = 0; i<this.length; i++){
+//   //       if (fn(this[i])){
+//   //         res.push(this[i]);
+//   //       }
+//   //     }
+// //   //     return res;
+
+// Array.prototype.filter = function (ruleCondition) {
+//     const arr = []
+//     this.forEach( (currentValue) => {
+//         if (ruleCondition( currentValue )) {
+//             arr.push(currentValue)
+//         }
+//         return arr;
+//     })
+// }
+// //or: 
+// Array.prototype.filter=function(fn) {
+//     return this.reduce((s, a) => fn(a)?(s.push(a), s) :s, [])
+// }
