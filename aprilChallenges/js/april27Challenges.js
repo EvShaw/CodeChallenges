@@ -163,18 +163,18 @@
 
 // // // ----------------------------- Cat years, Dog years
 
-const humanYearsCatYearsDogYears = function (humanYears) {
-    let catYears = 15
-    let dogYears = 15
+// const humanYearsCatYearsDogYears = function (humanYears) {
+//     let catYears = 15
+//     let dogYears = 15
 
-   if (humanYears > 2) {
-       console.log([humanYears, ((humanYears - 2)*4)+24, ((humanYears - 2)*5)+24])
-   }
+//    if (humanYears > 2) {
+//        console.log([humanYears, ((humanYears - 2)*4)+24, ((humanYears - 2)*5)+24])
+//    }
 
 
-}
+// }
 
-humanYearsCatYearsDogYears(10)
+// humanYearsCatYearsDogYears(10)
 //24?
 
 
