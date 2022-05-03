@@ -71,3 +71,8 @@
 
 // const thereWeGo = text => text == undefined ? console.log('nothin') : console.log(text)
 // thereWeGo()
+
+const min = ( (a, b) => a < b ? a : b)
+
+let number = min(22, 3)
+console.log(number)
