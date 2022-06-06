@@ -34,13 +34,13 @@ console.log('June 6th, 2022')
 
 //refactor: 
 
-function phoneNum(n) {
-    let format = '(xxx) xxx-xxxx'
+// function phoneNum(n) {
+//     let format = '(xxx) xxx-xxxx'
 
-    for (let i = 0; i < n.length; i++) {
-        format = format.replace('x', n[i])
-    }
-    return format
-}
+//     for (let i = 0; i < n.length; i++) {
+//         format = format.replace('x', n[i])
+//     }
+//     return format
+// }
 
-console.log(phoneNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+// console.log(phoneNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
