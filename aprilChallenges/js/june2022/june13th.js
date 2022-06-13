@@ -13,4 +13,6 @@ console.log(today)
 //P:
 // set up a conditional that checks if boss name was passed, if so return as is. set up additonal statment for strangers. 
 
-const greet = (name, owner) => name === owner ? "Hello boss" : "Hello guest"
+const greet = (name, owner) => name === owner ? "Hello boss" : "Hello guest" 
+
+//merge errors fixed?
