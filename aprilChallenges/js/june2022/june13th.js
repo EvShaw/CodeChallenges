@@ -15,4 +15,4 @@ console.log(today)
 
 const greet = (name, owner) => name === owner ? "Hello boss" : "Hello guest" 
 
-//merge error
+//merge errors fixed?
