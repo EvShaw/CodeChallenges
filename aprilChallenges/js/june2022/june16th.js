@@ -28,10 +28,41 @@ console.log(today)
 //     }
 
 //     for (let i = 0; i < key.length; i++) {
-        
+
 //     }
 
 
 // }
 
 // console.log(sameCasing('a', 'g'))
+
+//6kyu : Build Tower
+
+//PREP:
+//P:
+// given a number, build a tower with that amount of floors. 
+// always a positive number given. Do I need to worry about spaces as margin for the tower?
+//R:
+//return an astrik for level one and +2 for each additional level. lvl 2 = 4, lvl 3 = 5...etc.
+//return as an array 
+//E:
+// 3 floors = : 
+//      *
+//     ***
+//    *****
+//P:
+//I am going to run two loops, one for each floor and another for the width of the floor, expanding with two additional *s per level. If I need to take spaces and perfectly align, then the width for each floor will be the same all the way dowm and just need to get the spacing right for each level. 
+
+// for every loop, I will concat an additonal 2 astriks ot the floor. 
+
+function towerBuilder(nFloors) {
+    tower = []
+    for (let i = 0; i < nFloors; i++) {
+        tower.push(' '.repeat(nFloors - i - 1)
+                + '*'.repeat((i * 2)+1)
+                + ' '.repeat(nFloors - i -1))
+    }
+    return tower
+}
+
+console.log(towerBuilder(3))
