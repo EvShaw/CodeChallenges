@@ -71,3 +71,43 @@ console.log(today)
 // const getMiddle = s => s.slice((s.length-1)/2, s.length/2+1)
 
 // console.log(getMiddle('testing'))
+
+// 6 kyu: Sum of Digits/Digital Root: 
+
+// const squared = n => Math.sqrt(n) % 1 === 0 ? 'yes' : 'no'
+
+// console.log(squared(5))
+
+//PREP:
+//P:
+// given an integer, if that value has more than 1 digit, reduce it intil its asingle digit. 
+//always a number, always positive. 
+//R:
+//return the single number
+//E:
+// 16 => 7 
+// 456 => 6
+// 942 => 9+4+2 = 15 => 1+5 = (6) 
+// 16 = > 1 + 7
+//P:
+//goign to take in a number and break it down until its a sinlge number.
+//explicitly converting it from a number to a string then breaking that string into an array, then converting the individual strings back into numbers and reducing it to a single value. 
+
+// function digital_root(n) {
+//     const nStr = String(n).split('')
+//     // console.log(nStr.length)
+//     if(nStr.length > 1) {
+//         const newNums = nStr.reduce((acc, c) => acc + +c, 0)
+//         console.log(newNums)
+//         return digital_root(newNums)
+//     } else if (nStr.length == 1) {
+//         return +nStr.join('')
+//     }
+// }
+// digital_root(942)
+
+//refactor: 
+
+// const digital_root = n => (n - 1) % 9 + 1
+
+// console.log(digital_root(942))
