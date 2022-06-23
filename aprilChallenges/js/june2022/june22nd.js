@@ -22,7 +22,7 @@ console.log(today)
 
 
 
-//number will create the total width and height of the diamond. 
+
 
 function diamond(n) {
 
