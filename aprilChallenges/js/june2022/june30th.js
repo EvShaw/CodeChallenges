@@ -13,6 +13,7 @@ console.log(today)
 // * url = "http://www.zombie-bites.com"         -> domain name = "zombie-bites"
 // * url = "https://www.cnet.com"                -> domain name = cnet"
 //P:    
+
 //replace the subdomain with empty strings and then split the string at the period, extracting the domain with an index of 0 thats left over. 
 
 function domainName(url){
@@ -21,14 +22,6 @@ function domainName(url){
     url = url.replace("www.", '');
     return url.split('.')[0];
   };
-
-
-
-
-
-
-
-
 
 console.log(domainName("google.co"))
 // console.log(domainName("google.co"))
