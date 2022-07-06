@@ -20,17 +20,17 @@ function toCamelCase(str) {
 
     const strArr = str.split('')
 
-    strArr[0] = strArr[0].toUpperCase()
+    // strArr[0] = strArr[0].toUpperCase()
 
     for(let i = 0; i < str.length; i++) {
         
         if(strArr[i] === '-') {
-            strArr[i] = ' '
+            strArr[i] = ''
             let num = i + 1
             strArr[num] = strArr[num].toUpperCase()            
             
         } else if (strArr[i] === '_') {
-            strArr[i] = ' '
+            strArr[i] = ''
             let num = i + 1
             strArr[num] = strArr[num].toUpperCase()
         }
