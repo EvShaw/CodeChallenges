@@ -174,10 +174,12 @@
 
 // }
 
-// humanYearsCatYearsDogYears(10)
-//24?
+function removeOthers(arr) {
+    console.log(arr.filter( (ele, i) => {
+        console.log(i % 2 === 0)
+    }))
+}
+
+removeOthers(["Keep", "Remove", "Keep", "Remove", "Keep"])
 
 
-//   10 64 74
-
-//   10 56 64
