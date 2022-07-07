@@ -174,35 +174,6 @@
 
 // }
 
-// humanYearsCatYearsDogYears(10)
-// //24?
-
-
-// //   10 64 74
-
-// //   10 56 64
-
-// var humanYearsCatYearsDogYears = function(y) {
-//     if (y == 1) return [1, 15, 15]
-//     if (y == 2) return [2, 24, 24]
-//     return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
-//   }
-
-
-
-//----------------------------------------------
-
-
-function everyOther(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        if (i % 2 === 0) {
-            console.log(i)
-        }
-    }
-}
-
-everyOther(["Keep", "Remove", "Keep", "Remove", "Keep"])
-
 function removeOthers(arr) {
     console.log(arr.filter( (ele, i) => {
         console.log(i % 2 === 0)
@@ -211,4 +182,4 @@ function removeOthers(arr) {
 
 removeOthers(["Keep", "Remove", "Keep", "Remove", "Keep"])
 
-const removeEveryOther = arr => arr.filter((_, i) => !(i % 2));
+
