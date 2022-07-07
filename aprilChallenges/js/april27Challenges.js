@@ -163,21 +163,52 @@
 
 // // // ----------------------------- Cat years, Dog years
 
-const humanYearsCatYearsDogYears = function (humanYears) {
-    let catYears = 15
-    let dogYears = 15
+// const humanYearsCatYearsDogYears = function (humanYears) {
+//     let catYears = 15
+//     let dogYears = 15
 
-   if (humanYears > 2) {
-       console.log([humanYears, ((humanYears - 2)*4)+24, ((humanYears - 2)*5)+24])
-   }
+//    if (humanYears > 2) {
+//        console.log([humanYears, ((humanYears - 2)*4)+24, ((humanYears - 2)*5)+24])
+//    }
 
 
+// }
+
+// humanYearsCatYearsDogYears(10)
+// //24?
+
+
+// //   10 64 74
+
+// //   10 56 64
+
+// var humanYearsCatYearsDogYears = function(y) {
+//     if (y == 1) return [1, 15, 15]
+//     if (y == 2) return [2, 24, 24]
+//     return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
+//   }
+
+
+
+//----------------------------------------------
+
+
+function everyOther(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 === 0) {
+            console.log(i)
+        }
+    }
 }
 
-humanYearsCatYearsDogYears(10)
-//24?
+everyOther(["Keep", "Remove", "Keep", "Remove", "Keep"])
 
+function removeOthers(arr) {
+    console.log(arr.filter( (ele, i) => {
+        console.log(i % 2 === 0)
+    }))
+}
 
-//   10 64 74
+removeOthers(["Keep", "Remove", "Keep", "Remove", "Keep"])
 
-//   10 56 64
+const removeEveryOther = arr => arr.filter((_, i) => !(i % 2));
