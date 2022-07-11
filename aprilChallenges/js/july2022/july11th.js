@@ -140,7 +140,5 @@ console.log(today)
 // }
 
 const rot13 = str => str.split('')
-    .map(char => String.fromCharCode(
-        char.charCodeAt(0) + (char.toLowerCase() < 'n' ? 13 : -13)))
-    .join('');
+    .map(letter => String.fromCharCode((letter.charCodeAt(0)) + (letter.toLowerCase() < 'n' ? 13 : -13))).join()
 console.log(rot13("test"))
