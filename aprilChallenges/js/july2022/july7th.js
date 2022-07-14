@@ -22,35 +22,32 @@ console.log(today)
 
 //run nested loop to count how many times a number appears for each og loop iteration. 
 
-function findOdd(a) {
-  
-    let theNum = 0
+// function findOdd(a) {
+
+//     let theNum = 0
 
 
-    a.sort().forEach(num => {
-        let count = 0
-        
-
-        a.sort().forEach(n => {
-           if (n == num) {
-            count++
-           }
-           
-        })
-        if (count % 2 !== 0) {
-            console.log(num)
-            theNum = num
-        }
-       
-    })
-    return theNum
-}
-
-console.log(findOdd([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]))
+//     a.sort().forEach(num => {
+//         let count = 0
 
 
+//         a.sort().forEach(n => {
+//            if (n == num) {
+//             count++
+//            }
 
+//         })
+//         if (count % 2 !== 0) {
+//             console.log(num)
+//             theNum = num
+//         }
+
+//     })
+//     return theNum
+// }
+
+// console.log(findOdd([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]))
 // [-1, -1, -2, -2, 1, 1, 2, 2, 20, 20, 3, 3, 4, 4, 5, 5, 5]
-
-
 // const removeDupes = str => [...str].filter((a, i) => a !== i[i - 1])
+
+
