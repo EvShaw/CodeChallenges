@@ -16,21 +16,18 @@ console.log(today)
 
 
 
-function count(string) {
-    const obj = {}
-    const strArr = string.split('')
+// function count(string) {
+//     const obj = {}
+//     if(string) {
+//         string.split('').forEach(char => {
+//             if(char in obj) {
+//                 obj[char]++
+//             } else {
+//                 obj[char] = 1
+//             }
+//         })
+//         return obj
+//     } return {}
+// }
 
-    if(string) {
-        string.split('').forEach(char => {
-            if(char in obj) {
-                obj[char]++
-            } else {
-                obj[char] = 1
-            }
-        })
-        return obj
-    } return {}
-    
-}
-
-console.log(count('aba'))
+// console.log(count('aba'))
