@@ -48,3 +48,5 @@ function likes(name) {
 }
 
 likes(names)
+
+ls
