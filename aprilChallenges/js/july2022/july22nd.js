@@ -90,7 +90,6 @@ function isValidWalk(walk) {
 
     if(upDown == 0 && leftRight == 0) return true
     else return false
-
 }
 
 
