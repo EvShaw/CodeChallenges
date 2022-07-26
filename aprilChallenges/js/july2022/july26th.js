@@ -63,3 +63,12 @@ function findUniq(arr) {
     //in place of the below, with new additions, use .at(-1) method
     else return sortedAr[sortedAr.length - 1]
 }
+
+function findUniq(arr) {
+    const sortedArr = arr.sort()
+    if (sortedArr[0] != sortedArr[1]) return sortedArr[0]
+    //in place of the below approach, with new additions to js, use .at(-1) method. Codewars does not accept this method currently
+    // else return sortedArr.at(-1)  
+    else return sortedArr[sortedArr.length - 1]
+
+}
