@@ -20,10 +20,17 @@ console.log(today)
 //take the number, convert to string, split it at zero, join back together and get the length
 
 
-countBits = n => n.toString(2).split('0').join('').length;
+// countBits = n => n.toString(2).split('0').join('').length;
 
-console.log(countBits(10011010010))
-console.log(countBits(110011))
-console.log(countBits(100))
-console.log(countBits(0))
+// console.log(countBits(10011010010))
+// console.log(countBits(110011))
+// console.log(countBits(100))
+// console.log(countBits(0))
+
+
+// function getRealFloor(n) {
+//     if (n >= 13) return n - 2
+//     else if (n < 0) return n
+//     else return n - 1  
+// }
 
