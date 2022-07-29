@@ -12,8 +12,6 @@ const arrrowArea = (a, b) => (a / 2) * (b / 2)
 
 // function reverseList(arr) {
 //     return arr.reverse()
-   
-
 // }
 
 // console.log(reverseList([3, 2, 1]))
