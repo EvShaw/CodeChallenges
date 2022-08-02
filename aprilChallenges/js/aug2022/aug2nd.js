@@ -2,20 +2,20 @@ const today = new Date
 console.log(today)
 
 
-// function longest(s1, s2) {
-//     const str = s1.split('').concat(s2.split(''))
-//     console.log(str.sort())
+function longest(s1, s2) {
+    const str = s1.split('').concat(s2.split(''))
+    console.log(str.sort())
 
-//     const returnSTR = [...str].filter((a, i) => a !== str[i - 1])
-//     return returnSTR
-// }
+    const returnSTR = str.filter((a, i) => a !== str[i - 1])
+    return returnSTR
+}
 
-// longest("aretheyhere", "yestheyarehere")
+console.log(longest("aretheyhere", "yestheyarehere"))
 
 
-// const removeDupes = s => s.filter((a, i) => a !== s[i - 1])
+const removeDupes = s => s.sort().filter((a, i) => a !== s[i - 1])
 
-// console.log(removeDupes([2, 2, 3, 3, 3]))
+console.log(removeDupes(['a', 'a','a','b', 'b']))
 
 //challenge time... 
 
@@ -36,3 +36,8 @@ function isPowerOfTwo(n) { // create the function, sinle param accepted.
     } // close loop.
     return n === result; // return n as true if it is triple equal to n, otherwise return false.
 }
+
+
+// function isPowerOfTwo(n) {
+    //return n === 0 ? false : (n & (n - 1)) == 0
+//} 
