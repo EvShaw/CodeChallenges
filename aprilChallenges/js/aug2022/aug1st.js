@@ -35,20 +35,29 @@ function digPow(n, p) {
     let power = p
     const newArr = []
 
-    numStr.forEach((num, ind) => {
-        newArr.push(Number(num)**power)
+    numStr.forEach((num) => {
+        newArr.push(Number(num) ** power)
         power++
     })
     //reduce and capture
-    const total = newArr.reduce((acc, c) => acc+c)
-    
-    if(total/n % 1 !== 0) {
+    const total = newArr.reduce((acc, c) => acc + c)
+
+    if (total / n % 1 !== 0) {
         return -1
     } else {
-        return total/n
+        return total / n
     }
 }
 
 console.log(digPow(89, 1))
 console.log(digPow(695, 2))
 console.log(digPow(92, 1))
+
+//refactor: 
+
+function digPow(n, p) { //create function and accept arguments
+    let x = String(n).split("").reduce((s, d, i) => s + Math.pow(d, p + i), 0) // capture n, converting to string. Split by characters, reduce to single value, looking at the item, the index, and the array with each iteration (total number of elements in the array), arrow function to s(element) + math method power to, d(index of the reduce), second arguemnt, the exponent being p (second argument) + i(the array)
+    
+    return x % n ? -1 : x / n // return x(the variable modulus n) ternary -1 if true, otherwise return x/n
+}
+
