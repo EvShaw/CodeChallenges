@@ -17,7 +17,7 @@ const removeDupes = s => s.sort().filter((a, i) => a !== s[i - 1])
 
 console.log(removeDupes(['a', 'a','a','b', 'b']))
 
-//challenge time... 
+
 
 
 // power of two -> complete the function, determine, non neg-integer, is it a power of two. 
