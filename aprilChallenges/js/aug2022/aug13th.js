@@ -1,6 +1,7 @@
 const today = new Date
 console.log(today)
 
+
 // 6 KYU:
 // write a method that takes an array of consecutuve letters as input and the returns the missing letter in the array. 
 
@@ -30,4 +31,6 @@ function findMissingLetter(array) {
 
 console.log(findMissingLetter(['a', 'b', 'c', 'd', 'f']))
 console.log(findMissingLetter(['O', 'Q', 'R', 'S']))
+
+
 
