@@ -29,6 +29,8 @@ function titleCase(title, minorWords) {
 
 titleCase('THE WIND IN THE WILLOWS', 'The In')
 
+//option 2:
+
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
 }
