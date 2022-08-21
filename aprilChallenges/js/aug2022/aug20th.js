@@ -1,7 +1,7 @@
 const today = new Date
 console.log(today)
 
-// 1 of 389 => Completed
+//@ 01/309 => Completed
 // Opposites Attract
 
 function lovefunc(flower1, flower2) {
@@ -9,4 +9,12 @@ function lovefunc(flower1, flower2) {
         return true
     } else return false
 
+}
+
+//@ 02/308 => 
+// 
+
+function isDivisible(n, x, y) {
+    if (n % x == 0 && n % y == 0) return true
+    else return false
 }
