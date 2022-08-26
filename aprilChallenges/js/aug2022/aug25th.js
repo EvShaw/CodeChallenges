@@ -20,6 +20,7 @@
 
 //***************************************************************
 // @293
+
 //  Grasshopper - summation
 
 // write a program that finds the summation of everynumber from 1 to num/ 
@@ -103,4 +104,9 @@
 // }
 
 // // console.log(stringy(3))
+
 // console.log(stringy(3))
+
+// console.log(summation(8))
+
+
