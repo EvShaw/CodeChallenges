@@ -19,7 +19,6 @@
 // console.log(move(3, 6))
 
 //***************************************************************
-
 // @293
 
 //  Grasshopper - summation
@@ -105,7 +104,9 @@
 // }
 
 // // console.log(stringy(3))
+
 // console.log(stringy(3))
 
 // console.log(summation(8))
+
 
