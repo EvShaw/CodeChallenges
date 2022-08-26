@@ -49,3 +49,12 @@
 // console.log(century(1900))
 // console.log(century(1601))
 // console.log(century(2000))
+
+//***************************************************************
+// @286
+// 5 Without Numbers!!
+
+// write a function that always returns 5 without using 0123456789*+-/
+    //return a string a string that is 5 characters long with the length property appended by dot notation.  
+
+    // const unusualFive = _ => 'count'.length
