@@ -19,12 +19,9 @@
 // console.log(move(3, 6))
 
 //***************************************************************
-<<<<<<< HEAD
-// @293
-=======
 
-// @294
->>>>>>> 5ab3fb2b5ad5638d80a0f73300c4520b439ed488
+// @293
+
 //  Grasshopper - summation
 
 // write a program that finds the summation of everynumber from 1 to num/ 
@@ -43,7 +40,6 @@
 // }
 
 
-<<<<<<< HEAD
 // console.log(summation(8))
 
 //***************************************************************
@@ -110,6 +106,6 @@
 
 // // console.log(stringy(3))
 // console.log(stringy(3))
-=======
-console.log(summation(8))
->>>>>>> 5ab3fb2b5ad5638d80a0f73300c4520b439ed488
+
+// console.log(summation(8))
+
