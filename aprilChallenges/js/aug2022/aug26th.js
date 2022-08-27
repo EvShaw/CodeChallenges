@@ -83,6 +83,7 @@
 
 // fizzBuzz()
 
+//***************************************************************
 //7 - inspiring strings
 
 // function longestWord(stringOfWords) {
@@ -97,6 +98,7 @@
 //     return longestWord
 // }
 
+//***************************************************************
 //7 kyu Convert an array of strings to array of numbers
 // function toNumberArray(stringarray) {
 //     return stringarray.map(el => +el)
@@ -118,7 +120,28 @@
 
 
 //***************************************************************
+//@283
+// CSV representation of array
+
+// Create a function that retruns the CSV representation of a two-dimensional numeric array. 
 
 
-    
+// function toCsvText(array) {
+//     const newArr = []
 
+//     array.forEach(el => {
+//         newArr.push(el)       
+//     })
+//     return newArr.join("\n")
+//  }
+
+
+//  console.log(toCsvText([
+//     [ 0, 1, 2, 3, 45 ],
+//     [ 10,11,12,13,14 ],
+//     [ 20,21,22,23,24 ],
+//     [ 30,31,32,33,34 ]
+//    ] ))
+
+    // '0,1,2,3,45\n10,11,12,13,14\n20,21,22,23,24\n30,31,32,33,34', 
+    // ' 0,1,2,3,45\'\n\'  10,11,12,13,14\'\n\'  20,21,22,23,24\'\n\'  30,31,32,33,34\'\n\' '
