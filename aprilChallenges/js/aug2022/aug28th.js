@@ -16,7 +16,7 @@ function past(h, m, s) {
     let minute = 60000
     let second = 1000
 
-    totalMilliseconds = h*hour + m*minute + s*second
+    totalMilliseconds = h * hour + m * minute + s * second
 
     return totalMilliseconds
 }
@@ -24,6 +24,27 @@ function past(h, m, s) {
 console.log(past(0, 1, 0))
 
 
+
 //***************************************************************
-//***************************************************************
-//@274 -
+//@274 - Take the Derivative
+// takw two parameters, the coefficent and the exponent
+//multiply the two numbers and subtract 1 from the exponent. 
+//print out an expression:  '28x^7
+// ^1 should not be truncated when exponent = 2
+
+//derive(7, 8) --> this should output "56x^7" 
+//derive(5, 9) --> this should output "45x^8"
+
+// mutliply the two numbers and return a print out of that expression ^ -1 from the exponent. 
+
+//create a function with two paramaters (coefficient, exponent)
+//multiply the two numbers and store as a value. 
+//return the value inside a string template literal as the first part and the exponent - 1 as the second part:
+
+function derive(coefficient, exponent) {
+    return `${coefficient * exponent}x^${exponent - 1}`
+}
+
+
+ //***************************************************************
+//@273 - 
