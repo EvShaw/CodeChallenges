@@ -59,4 +59,31 @@
 
 //***************************************************************
 //@280
-//
+//Keep hydrated:
+    //.5 liters of water per hr of cycling. 
+    //given a time in hours, return the numnber of liters (.5) will drink, rounded to the smalles value. 
+
+    //take the number, divide it by 2, use the floor method to round down to the smallest number. 
+
+    // function litres(time) {
+    //     return Math.floor(time/2);
+    //   }
+
+//***************************************************************
+//@279
+      //You Can't Code Under Pressure #1 //double integer => return i*2 
+//***************************************************************
+//@278
+      //Fake binary
+    // given a sting of digits, replace any digit below 5 with 0 and above with 1. return the string.
+
+    //split the string into an array, forEach over the array, pushing to an empty array 0 if the element is <= 5, and 1 if > 5. return the arr. 
+
+    function fakeBin(x){
+        let arr = []
+        x.split('').forEach(el => {
+            if(el <= 0) arr.push('0')
+            else arr.push('1')
+        })
+        return arr
+    }
