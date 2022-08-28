@@ -47,4 +47,26 @@ function derive(coefficient, exponent) {
 
 
  //***************************************************************
-//@273 - 
+//@273 - Simple validation of a username with regex
+
+    //using regex, validate a username with only lowercase letters, numbers, and underscores. Length should be no less than 4 and no greater than 16
+
+    //inside the function, check the length and ensure it passes the min and max length allowed. Then google the regex needed and return it!
+
+    const validateUsr = username => {
+        return username.length >= 4 && 
+          username.length <= 16 && 
+          (username.match(/[a-z]|_|\d/g).length === username.length);
+        }
+
+ //***************************************************************
+//@272: Get character from ASCII value
+
+//given a number, return the correspond ASCII char for that value. 
+    
+//inside the function, use the STRING fromCharCode method to convert the character to its UTF-16 value.
+
+function getChar(c){
+    return String.fromCharCode(c)
+  }
+
