@@ -102,9 +102,9 @@
 //check if the length of the array is 0, return 0 if so. 
 // else, use the reduce method to sum the numbers in the array and then divide by the total numbers to get the average. 
 
-function find_average(array) {
-    if(array.length == 0) return 0
-    return array.reduce((prev, cur) => prev += cur) / array.length    
-}
+// function find_average(array) {
+//     if(array.length == 0) return 0
+//     return array.reduce((prev, cur) => prev += cur) / array.length    
+// }
 
-console.log(find_average([]))
+// console.log(find_average([]))
