@@ -11,7 +11,7 @@
 // check that input is truthy, if not, return []
 // open a loop that will check and count how many integers are positive. NOT SUM THEM.
 // create a binding to capture the SUM of the negative integers. 
-    // filter over the input, extracting out the neg numbers then use reduce method to sum them. 
+// filter over the input, extracting out the neg numbers then use reduce method to sum them. 
 
 //check if pos and neg value == 0, if so, return [] else return the count of pos and the sum of neg.
 
@@ -34,4 +34,29 @@
 
 // console.log(countPositivesSumNegatives([0, 0]))
 
+//***************************************************************
+//@281
+//get nth even number. 
 
+// given a number, what would be the positive integer of that? 
+// 
+// 1 --> 0 (the first even number is 0)
+// 3 --> 4 (the 3rd even number is 4 (0, 2, 4))
+// 100 --> 198
+// 1298734 --> 2597466
+
+//create an array to capture the count of positives. 
+//create a loop that will continue to add those positive nubmers into the array. 
+//this loop will contineu until the length of the array == the number passed. 
+
+// use a while loop.....nope, nope, nope....
+
+
+//SOMETIMES THE EASIEST WAY IS THE BEST WAY
+// function nthEven(n) {
+//     return n*2 - 2
+// }
+
+//***************************************************************
+//@280
+//
