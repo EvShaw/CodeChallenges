@@ -43,9 +43,42 @@ console.log(today.toLocaleTimeString())
 function cleanString(s) {
     let result = []
 
-   s.split('').map(el => el === '#' ? result.pop() : result.push(el))
+    s.split('').map(el => el === '#' ? result.pop() : result.push(el))
 
     return result.join('')
 }
 
-console.log(cleanString("abc#d##c"))
+// console.log(cleanString("abc#d##c"))
+
+
+
+// const Person = function (firstName) {
+//     this.firstName = firstName;
+//     this.sayName1 = function () {
+//       console.log(this.firstName);
+//     };
+//     this.sayName2 = () => {
+//       console.log(this.firstName);
+//     };
+//   };
+//   const john = new Person('John');
+//   const dave = new Person('Dave');
+
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName
+        this.lastName = lastName
+    }
+    sayName = () => {
+        console.log(this.firstName)
+    }
+}
+  
+
+const evan = new Person('Evan', 'Shaw')
+
+const {firstName: name} = evan
+
+console.log(name)
+
+console.log(evan)
