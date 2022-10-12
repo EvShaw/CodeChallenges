@@ -20,15 +20,3 @@ console.log(today.toLocaleTimeString())
                 // check if the element is less than the array, index + 1. legnth == 0
 
 // with a ternary, check if ascending is truthy, if not, chain a ternary and check if descending is truthy, return no if not. 
-
-function isSortedAndHow(array) {
-    let ascending = array.filter((e, i, a) => e > a[i+1]).length == 0
-
-    let descending = array.filter((e, i, a) => e < a[i+1]).length == 0
-
-    return ascending ? 'yes, ascending' : descending ? 'yes, descending' : 'no'
-
-}
-
-console.log(isSortedAndHow([15, 7, 3, -8]))
-console.log(isSortedAndHow([-8, 3, 7, 15]))
