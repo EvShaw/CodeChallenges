@@ -20,3 +20,4 @@ function pickIt(arr) {
 }
 
 console.log(pickIt([1,2]))
+
