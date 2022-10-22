@@ -50,21 +50,21 @@ console.log(today.toLocaleString())
 
 // getting errors on both examples above, the below does work
 
-function comp(array1, array2) {
-    debugger;
-    if(array1 === null || array2 === null) {
-      return false;
-    }  
-    if(!array1.length) {
-      return true;
-    }
+// function comp(array1, array2) {
+//     debugger;
+//     if(array1 === null || array2 === null) {
+//       return false;
+//     }  
+//     if(!array1.length) {
+//       return true;
+//     }
 
-    for(var i = 0; i < array2.length; i++) {
-      if(array2[i] === Math.pow(array1[0],2)) {
-        array1.shift();
-        array2.splice(i, 1);
-        return comp(array1, array2);
-      }
-    }
-    return false;  
-  }
+//     for(var i = 0; i < array2.length; i++) {
+//       if(array2[i] === Math.pow(array1[0],2)) {
+//         array1.shift();
+//         array2.splice(i, 1);
+//         return comp(array1, array2);
+//       }
+//     }
+//     return false;  
+//   }
