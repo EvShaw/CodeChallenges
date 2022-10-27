@@ -4,7 +4,7 @@
 
 //create a function that accepts a string argument. 
 // seperate the string to an array with the split method. 
-// create a variable that will store the current number. if the following item is a number, update the variable to that new number. If not, repeat the character by the nubber. 
+// create a variable that will store the current number. if the following item is a number, update the variable to that new number. If not, repeat the character by the number. 
 //create an array that will store the characters that are pushed as the loop goes. only push characters. 
 //return with the join method to convert back a string. 
 
