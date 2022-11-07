@@ -19,8 +19,6 @@ function validate(n) {
     let newArr = []
     //check of n is odd or even
     for (let i = 0; i < nStringArray.length; i++) {
-       
-
         if (nStringArray.length % 2 == 0) {
             //every even number is doubled if the array is even in length
             if (i % 2 == 0) {
@@ -39,13 +37,10 @@ function validate(n) {
             } else {
                 newArr.push(+nStringArray[i])
             }
-           
         }
     }
-
     const sumNewArr = newArr.reduce((a, b) => a + b, 0)
     const sumModTen = sumNewArr % 10 == 0
-    
     return sumModTen 
 }
 
