@@ -44,37 +44,3 @@ console.log(contact('>>>>--<<<<<<<<<<<<<<<<<<<<')) // 2
 console.log (contact('>---------------<--------------------------<-------->---------<------->----------<----<---->>----------<------->>>---------------<<------>')) // 5
 
 
-
-
-//     //convert to array and find the last > from forward loop, and the last < from backward loop. This approach is linear/O(2n) => O(N)
-
-//     const strArr = hallway.split('')
-
-//     let goingRight = ''
-   
-//    //traverse right 
-//     for(let i = 0; i < strArr.length; i++) {
-//         if(strArr[i] == '>') {
-//             goingRight = i
-//             // goingRight = strArr.indexOf(strArr[i])
-//         } 
-//     }
-
-//     // console.log(goingRight)
-
-
-//     let goingLeft = ''
-//     //traverse left
-//     for(let i = strArr.length; i > 0; i--) {
-//         if(strArr[i] == '<') {
-//             goingLeft = i
-//             // goingLeft = strArr.indexOf(strArr[i])
-//         } 
-//     }
-//     // console.log(goingLeft)
-
-
-//     //how many steps between the two?
-//     let totalSteps = (goingRight - goingLeft) / 2
-
-//     return(totalSteps)
